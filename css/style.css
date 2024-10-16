@@ -1,5 +1,10 @@
 
-  /* Style the navigation menu */
+ html {
+  box-sizing: content-box;
+ }
+ 
+ 
+ /* Style the navigation menu */
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -40,3 +45,16 @@
     background-color: #04AA6D;
     color: white;
   } 
+
+  .framed {
+    border: #333 5px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px
+  }
+
+  .responsiveImg {
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
